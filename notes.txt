@@ -1,9 +1,0 @@
-
-
-Docker run -d --hostname ${RABBIT_HOST_FILE} –name rabbitmq -p 5672:5672 \ -p 15672:15672 rabbitmq:3.10-management
-
-
-
-echo "devRabbit" | docker secret create rabbitmqUser -
-echo "23432h4bo32hb4oh32biu32h89dhf" | docker secret create rabbitmqPass -
-echo "my-rabbit" | docker secret create rabbitHost -
